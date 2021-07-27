@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@page
+@model Customer_Portal.Pages.IndexModel
+@{
+    Layout = null;
 }
 
 <div class="text-center">
@@ -23,15 +25,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
 		<!-- CORE CSS -->
-		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
 		<!-- THEME CSS -->
-		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="css/layout.css" rel="stylesheet" type="text/css" />
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link href="css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
 	</head>
 
 	<!--
@@ -1768,11 +1770,11 @@
 
 
 		<!-- PRELOADER -->
-		<div id="preloader">
+		@* <div id="preloader">
 			<div class="inner">
 				<span class="loader"></span>
 			</div>
-		</div><!-- /PRELOADER -->
+		</div><!-- /PRELOADER --> *@
 
 
 		<!-- JAVASCRIPT FILES -->

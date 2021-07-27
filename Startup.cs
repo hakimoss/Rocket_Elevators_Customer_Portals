@@ -13,6 +13,7 @@ using Pomelo.EntityFrameworkCore.MySql;
 // using Intervention.Models;
 using Customer_Portal.Areas.Identity.Data;
 
+
 namespace Customer_Portal
 {
 public class Startup
@@ -61,6 +62,7 @@ public class Startup
         }
         app.UseHttpsRedirection();
         app.UseStaticFiles();
+ 
 
         app.UseRouting();
 

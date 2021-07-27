@@ -56,7 +56,7 @@
 		_loadPopperBS4();
 
 		// Load Bootstrap JS
-		loadScript(plugin_path + 'bootstrap/js/bootstrap.min.js', function() {
+		loadScript(plugin_path + 'bootstrap/dist/js/bootstrap.min.js', function() {
 
 			// Load Material Design Js
 			if(jQuery("body").hasClass('enable-materialdesign')) {
@@ -70,7 +70,7 @@
 
 
 		/* --- */
-		if(jQuery("body").hasClass("smoothscroll") && navigator.platform.indexOf('Mac') < 0) {
+		if(jQuery("body").hasClass("bootstrap/smoothscroll") && navigator.platform.indexOf('Mac') < 0) {
 
 			loadScript(plugin_path + 'smoothscroll.js', function() {
 				jQuery.smoothScroll();
@@ -1237,7 +1237,7 @@
 
 		if(_container.length > 0) {
 
-			loadScript(plugin_path + 'owl-carousel/owl.carousel.min.js', function() {
+			loadScript(plugin_path + 'bootstrap/owl.carousel.min.js', function() {
 
 				_container.each(function() {
 
@@ -1936,7 +1936,7 @@
 		
 		if(_container.length > 0) {
 
-			loadScript(plugin_path + 'text-rotator/jquery.simple-text-rotator.min.js', function() {
+			loadScript(plugin_path + 'bootstrap/jquery.simple-text-rotator.min.js', function() {
 
 				_container.each(function() {
 					var _t 			= jQuery(this),
@@ -2822,8 +2822,8 @@
 		 ************************ **/
 		if(jQuery('form.validate-plugin').length > 0) {
 
-			loadScript(plugin_path + 'form.validate/jquery.form.min.js', function() {
-				loadScript(plugin_path + 'form.validate/jquery.validation.min.js');
+			loadScript(plugin_path + 'bootstrap/jquery.form.min.js', function() {
+				loadScript(plugin_path + 'bootstrap/jquery.validation.min.js');
 			});
 
 		}
@@ -2834,8 +2834,8 @@
 		 ************************ **/
 		if(jQuery('form.validate').length > 0) {
 
-			loadScript(plugin_path + 'form.validate/jquery.form.min.js', function() {
-				loadScript(plugin_path + 'form.validate/jquery.validation.min.js', function() {
+			loadScript(plugin_path + 'bootstrap/jquery.form.min.js', function() {
+				loadScript(plugin_path + 'bootstrap/jquery.validation.min.js', function() {
 
 					if(jQuery().validate) {
 

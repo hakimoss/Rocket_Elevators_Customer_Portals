@@ -9,21 +9,21 @@ using Microsoft.Extensions.DependencyInjection;
 using Pomelo.EntityFrameworkCore.MySql;
 
 
-// [assembly: HostingStartup(typeof(Customer_Portal.Areas.Identity.IdentityHostingStartup))]
-// namespace Customer_Portal.Areas.Identity
-// {
-//     public class IdentityHostingStartup : IHostingStartup
-//     {
-//         public void Configure(IWebHostBuilder builder)
-//         {
-//             builder.ConfigureServices((context, services) => {
-//                 services.AddDbContext<Customer_PortalIdentityDbContext>(options =>
-//                     options.UseMySql(
-//                         // context.Configuration.GetConnectionString("Customer_PortalIdentityDbContextConnection")));
+[assembly: HostingStartup(typeof(Customer_Portal.Areas.Identity.IdentityHostingStartup))]
+namespace Customer_Portal.Areas.Identity
+{
+    public class IdentityHostingStartup : IHostingStartup
+    {
+        public void Configure(IWebHostBuilder builder)
+        {
+            builder.ConfigureServices((context, services) => {
+                // services.AddDbContext<Customer_PortalIdentityDbContext>(options =>
+                //     options.UseMySql(
+                        // context.Configuration.GetConnectionString("Customer_PortalIdentityDbContextConnection")));
 
-//                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-//                     .AddEntityFrameworkStores<Customer_PortalIdentityDbContext>();
-//             });
-//         }
-//     }
-// }
+                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<Customer_PortalIdentityDbContext>();
+            });
+        }
+    }
+}

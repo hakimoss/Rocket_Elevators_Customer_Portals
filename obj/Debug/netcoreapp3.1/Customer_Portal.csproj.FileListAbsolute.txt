@@ -468,3 +468,7 @@ C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Customer_Portal.dll
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Customer_Portal.pdb
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Customer_Portal.genruntimeconfig.cache
+c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal.deps.json
+c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\project.razor.json
+c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\project.assets.json
+c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\Rocket_Elevators_Customer_Portal.csproj.nuget.dgspec.json

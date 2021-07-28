@@ -21,7 +21,7 @@ namespace Customer_Portal.Areas.Identity
                 //     options.UseMySql(
                         // context.Configuration.GetConnectionString("Customer_PortalIdentityDbContextConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                     .AddEntityFrameworkStores<Customer_PortalIdentityDbContext>();
             });
         }

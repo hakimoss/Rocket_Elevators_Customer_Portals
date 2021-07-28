@@ -472,3 +472,7 @@ c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\
 c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\project.razor.json
 c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\project.assets.json
 c:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal\obj\Rocket_Elevators_Customer_Portal.csproj.nuget.dgspec.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Register.cshtml.g.cs

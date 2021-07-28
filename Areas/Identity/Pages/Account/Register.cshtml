@@ -1,13 +1,10 @@
 @page
 @model Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal.RegisterModel
-@{
-    ViewData["Title"] = "Register";
-}
 
+<h1 style="text-align:center;">Register</h1>
 <div class="d-flex justify-content-center">
-<h1 style="text-align:center;">@ViewData["Title"]</h1>
 
-<div class="row" style="margin-top:200px">
+<div class="row" style="margin-top:200px;margin-left:20px">
     <div class="col-md-16">
         <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h4>Create a new account.</h4>

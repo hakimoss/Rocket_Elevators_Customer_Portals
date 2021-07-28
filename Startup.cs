@@ -70,6 +70,7 @@ public class Startup
             app.UseHsts();
         }
         app.UseHttpsRedirection();
+        app.UseDefaultFiles();
         app.UseStaticFiles();
  
 

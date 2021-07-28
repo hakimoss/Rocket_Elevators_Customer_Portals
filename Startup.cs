@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
 // using Intervention.Models;
 using Customer_Portal.Areas.Identity.Data;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace Customer_Portal
@@ -42,6 +43,14 @@ public class Startup
                 .EnableSensitiveDataLogging() // <-- These two calls are optional but help
                 .EnableDetailedErrors()       // <-- with debugging (remove for production).
         );
+        services.Configure<IdentityOptions>(opts =>
+    {
+        opts.User.RequireUniqueEmail = true;
+        opts.Password.RequiredLength = 8;
+         
+        opts.SignIn.RequireConfirmedEmail = false;
+    });
+ 
         services.AddMvc();
         services.AddEntityFrameworkMySql();
         services.AddControllersWithViews();

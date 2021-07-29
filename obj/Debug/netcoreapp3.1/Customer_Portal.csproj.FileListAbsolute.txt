@@ -476,3 +476,13 @@ C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Register.cshtml.g.cs
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\web.config
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\.swift-sfdc.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\appsettings.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Customer_Portal.deps.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Customer_Portal.runtimeconfig.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\Rocket_Elevators_Customer_Portal.deps.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Rocket_Elevators_Customer_Portal\obj\Debug\netcoreapp3.1\project.razor.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Rocket_Elevators_Customer_Portal\obj\project.assets.json
+C:\Users\Hakim\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\netcoreapp3.1\publish\Rocket_Elevators_Customer_Portal\obj\Rocket_Elevators_Customer_Portal.csproj.nuget.dgspec.json

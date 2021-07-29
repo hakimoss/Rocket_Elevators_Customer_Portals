@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/79e2be77-fc69-4e58-ae3f-ecb0043ce8d8/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/abdelhakim",
+    "appService.deploySubpath": "publish"
+}
